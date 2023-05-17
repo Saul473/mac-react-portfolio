@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <h1>hello testy</h1>
-
+    <div>
+    <AboutMe />
+    </div>
   );
 }
 
