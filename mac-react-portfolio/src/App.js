@@ -2,6 +2,7 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
 import Header from './components/Header'
+import Portfolio from './components/Portfolio/Portfolio';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <Header />
     <main>
       <AboutMe />
+      <Portfolio />
     </main>
     </>
   );
