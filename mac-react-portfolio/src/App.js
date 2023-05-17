@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import AboutMe from './components/AboutMe';
+import Header from './components/Header'
+
 
 function App() {
   return (
@@ -20,9 +22,12 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div>
-    <AboutMe />
-    </div>
+    <>
+    <Header />
+    <main>
+      <AboutMe />
+    </main>
+    </>
   );
 }
 
