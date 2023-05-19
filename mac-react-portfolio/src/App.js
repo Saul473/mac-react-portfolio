@@ -14,7 +14,6 @@ function App() {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/AboutMe" element={<AboutMe />} /> */}
       </Routes>
     </Router>
   );
