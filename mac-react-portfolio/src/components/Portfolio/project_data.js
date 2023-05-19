@@ -1,8 +1,8 @@
-import reactionTimeImg from '../../images/reaction-time.png';
-import employeeTracker from '../../images/employee-tracker.png';
-import laicos from '../../images/laicos.png';
-import leWeather from '../../images/le-weather.png';
-import quizGame from '../../images/quiz-game.png';
+import reactionTimeImg from './images/Game.PNG';
+import employeeTracker from './images/Tables.PNG';
+import laicos from './images/Screenshot.PNG';
+import leWeather from './images/le-weather.PNG';
+import quizGame from './images/Quiz.PNG';
 
 
 const myProjects =

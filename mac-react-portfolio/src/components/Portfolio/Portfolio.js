@@ -11,7 +11,7 @@ function Portfolio() {
                My Portfolio
             </h1>
             < br />
-            <div className='flex-wrap justify-content-center'>
+            <Row className='flex-wrap justify-content-center'>
             {myProjects.map((project, index) => (
                 <ProjectCards 
                     key={index}
@@ -22,7 +22,7 @@ function Portfolio() {
                     webpage={project.webpage}
                 />
             ))}
-            </div>
+            </Row>
         </Container>
     )
 }
