@@ -3,14 +3,13 @@ import employeeTracker from '../../images/employee-tracker.png';
 import laicos from '../../images/laicos.png';
 import leWeather from '../../images/le-weather.png';
 import quizGame from '../../images/quiz-game.png';
-import React from 'react';
 
 
 const myProjects =
     [
         {
             name: "Employee Tracker",
-            description: "",
+            description: "I am a description",
             image: employeeTracker,
             webpage: "https://github.com/Saul473/employee-tracker",
             github_repo: "https://github.com/Saul473/employee-tracker"
