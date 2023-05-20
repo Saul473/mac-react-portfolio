@@ -1,11 +1,13 @@
 import Form from 'react-bootstrap/Form';
+import './style.css';
 
 function ContactForm() {
   return (
-    <Form>
-    <h1>
+    <div>
+    <h1  id="contact-title">
         Contact Me!
     </h1> 
+    <Form id="contact-form">
     <br />
       <Form.Group className="mb-3" controlId="formGroupName">
         <Form.Label>Name</Form.Label>
@@ -20,6 +22,7 @@ function ContactForm() {
         <Form.Control type="phoneNumber" placeholder="Enter phone number" />
       </Form.Group>
     </Form>
+    </div>
   );
 }
 

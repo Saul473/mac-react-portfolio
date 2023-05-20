@@ -1,0 +1,11 @@
+#project-cards {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#card-links {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}

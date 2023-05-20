@@ -18,7 +18,7 @@ function Portfolio() {
                     name={project.name}
                     description={project.description}
                     image={project.image}
-                    github={project.github_repo}
+                    github={project.github}
                     webpage={project.webpage}
                 />
             ))}

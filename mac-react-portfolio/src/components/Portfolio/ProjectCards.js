@@ -1,10 +1,11 @@
 import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button'
 import { BsGithub } from "react-icons/bs";
 import { BsGlobe2 } from "react-icons/bs";
+import './portfolio.css'
 
 function ProjectCards(props) {
   return (
+  <div className="text-black d-flex justify-content-center" id="project-cards">
     <Card style={{ width: '18rem' }} >
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
@@ -12,7 +13,7 @@ function ProjectCards(props) {
         <Card.Text>
           <div className=''>
             {props.description} <br />
-            <div>
+            <div id="card-links">
               <a href={"" + props.github}>
                 <BsGithub size={40} />
               </a> <span />
@@ -22,9 +23,9 @@ function ProjectCards(props) {
             </div>
           </div>
         </Card.Text>
-
       </Card.Body>
     </Card>
+  </div>
   )
 }
 

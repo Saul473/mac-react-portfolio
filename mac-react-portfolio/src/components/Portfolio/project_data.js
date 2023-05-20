@@ -4,7 +4,6 @@ import laicos from './images/Screenshot.PNG';
 import leWeather from './images/le-weather.PNG';
 import quizGame from './images/Quiz.PNG';
 
-
 const myProjects =
     [
         {
