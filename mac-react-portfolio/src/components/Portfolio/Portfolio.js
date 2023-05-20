@@ -6,12 +6,12 @@ import Row from 'react-bootstrap/Row';
 
 function Portfolio() {
     return (
-        <Container>
-            <h1 className='text-center'>
+        <Container id="portfolio-container">
+            <h1 className='text-center' id="portfolio-title">
                My Portfolio
             </h1>
             < br />
-            <Row className='flex-wrap justify-content-center'>
+            <Row className=''>
             {myProjects.map((project, index) => (
                 <ProjectCards 
                     key={index}

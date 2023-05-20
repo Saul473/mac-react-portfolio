@@ -4,8 +4,12 @@
 
 main {
   height: 100vh;
-  /* background-color: black;
-  color: white; */
+  background-color: black;
+  color: white;
+}
+
+#portfolio-title {
+  padding-top: 20px;
 }
 
 #about-me {
@@ -13,7 +17,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
 }
 
 .container {
@@ -23,7 +27,10 @@ main {
 #project-cards {
   margin-top: 0px;
   margin-bottom: 50px;
-  background-color: black;
+}
+
+#card-body {
+  background-color: rgb(222, 215, 215);
 }
 
 #footer {
@@ -92,4 +99,10 @@ main {
 
   #project-cards {
     border-radius: 50px;
+  }
+
+  #portfolio-container {
+    background-color: black;
+    margin: 0;
+    min-width: 100vw;
   }
