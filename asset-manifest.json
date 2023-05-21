@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mac-react-portfolio/static/css/main.784a9654.css",
+    "main.js": "/mac-react-portfolio/static/js/main.c2246c51.js",
+    "static/media/DIO.jpg": "/mac-react-portfolio/static/media/DIO.89640a7e9d2d87d75fe1.jpg",
+    "static/media/Game.PNG": "/mac-react-portfolio/static/media/Game.51d8199cf2848d14196f.PNG",
+    "static/media/Resume.pdf": "/mac-react-portfolio/static/media/Resume.55665bb53666ab3c365d.pdf",
+    "static/media/le-weather.PNG": "/mac-react-portfolio/static/media/le-weather.be04c27bced6bb29f144.PNG",
+    "static/media/Quiz.PNG": "/mac-react-portfolio/static/media/Quiz.3bbb4818a1ead7422980.PNG",
+    "static/media/Screenshot.PNG": "/mac-react-portfolio/static/media/Screenshot.6d40279322acbd63c4f2.PNG",
+    "static/media/Tables.PNG": "/mac-react-portfolio/static/media/Tables.def98ccaaf7ecfd2bde6.PNG",
+    "index.html": "/mac-react-portfolio/index.html",
+    "main.784a9654.css.map": "/mac-react-portfolio/static/css/main.784a9654.css.map",
+    "main.c2246c51.js.map": "/mac-react-portfolio/static/js/main.c2246c51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784a9654.css",
+    "static/js/main.c2246c51.js"
+  ]
+}
