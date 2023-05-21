@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { BsGithub } from "react-icons/bs";
-import { BsGlobe2 } from "react-icons/bs";
+import { BsGithub, BsGlobe2 } from "react-icons/bs";
 import './portfolio.css'
 
 function ProjectCards(props) {

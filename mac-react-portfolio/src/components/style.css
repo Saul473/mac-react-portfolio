@@ -106,3 +106,8 @@ main {
     margin: 0;
     min-width: 100vw;
   }
+
+  #DIO {
+    width: 20%;
+    margin-right: 10px;
+  }

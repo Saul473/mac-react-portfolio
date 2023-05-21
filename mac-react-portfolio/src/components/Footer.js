@@ -1,23 +1,19 @@
 import React from 'react';
-import { BsGithub } from "react-icons/bs";
-import { BsGlobe2 } from "react-icons/bs";
+import { BsGithub, BsTwitter, BsInstagram } from "react-icons/bs";
 import './style.css';
 
-function Footer(props) {
+function Footer() {
     return (
         <footer id="footer">
             <div id="footer-links">
-                <a href={"" + props.github}>
+                <a href="https://github.com/Saul473">
                     <BsGithub size={25} />
                 </a>
-                <a href={"" + props.webpage}>
-                    < BsGlobe2 size={25} />
+                <a href="https://twitter.com/comingsoon">
+                    < BsTwitter size={25} />
                 </a>
-                <a href={"" + props.webpage}>
-                    < BsGlobe2 size={25} />
-                </a>
-                <a href={"" + props.webpage}>
-                    < BsGlobe2 size={25} />
+                <a href="https://instagram.com/comingsoon">
+                    < BsInstagram size={25} />
                 </a>
             </div>
         </footer>
