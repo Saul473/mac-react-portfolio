@@ -6,7 +6,7 @@ import './portfolio.css'
 function ProjectCards(props) {
   return (
   <div className="text-black" id="project-cards">
-    <Card style={{ width: '50%' , minheight:'30vh' }} id="card" className="rounded-9">
+    <Card style={{ width: '70%' , minheight:'30vh' }} id="card" className="rounded-9">
       <Card.Img variant="top" src={props.image} />
       <Card.Body id="card-body">
         <Card.Title>{props.name}</Card.Title>

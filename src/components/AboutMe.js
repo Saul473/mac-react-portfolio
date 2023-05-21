@@ -15,8 +15,8 @@ function AboutMe () {
                 grown in my career path! <br/>
                 Once again, thanks for taking the time to view my portfolio!
             </p>
-        </div>
             <img id="DIO" src={dio} alt="DioTheDog"></img>
+        </div>
     </section>
 )};
 

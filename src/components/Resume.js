@@ -5,10 +5,10 @@ import './style.css'
 function Resume() {
     return (
         <>
+        <div id="resume-page">
             <h1>
             <a href={Pdf} target='_blank' rel='noreferrer' id="resume-header">Resume</a>
             </h1>
-        <div id="resume-page">
             <div id="soft-skills">
                 <h3>Soft Skilly</h3>
                 <ul id="soft-skills-ul"> 
