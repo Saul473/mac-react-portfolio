@@ -15,9 +15,9 @@ function App() {
       <main>
       <Routes>
         <Route path="/mac-react-portfolio/aboutme" element={<AboutMe />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/mac-react-portfolio/portfolio" element={<Portfolio />} />
+        <Route path="/mac-react-portfolio/contact" element={<Contact />} />
+        <Route path="/mac-react-portfolio/resume" element={<Resume />} />
       </Routes>
       </main>
       <Footer />
