@@ -7,7 +7,7 @@ function Navi() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/aboutme">Saul Navarro</Navbar.Brand>
+        <Navbar.Brand href="/mac-react-portfolio/aboutme">Saul Navarro</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
