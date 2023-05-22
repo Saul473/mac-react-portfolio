@@ -6,28 +6,27 @@ import Contact from './Contact';
 import Resume from './Resume';
 
 export default function NavContainer() {
-    const [currentPage, setCurrentPage] = useState('AboutMe');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
-    const renderPage = () => {
-      if (currentPage === 'AboutMe') {
-        return <AboutMe />;
-      }
-      if (currentPage === 'Portfolio') {
-        return <Portfolio />;
-      }
-      if (currentPage === 'Contact') {
-        return <Contact />;
-      }
-      return <Resume />;
-    };
-  
-    const handlePageChange = (page) => setCurrentPage(page);
-  
-    return (
-      <div>
-        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-        {renderPage()}
-      </div>
-    );
-  }
-  
+  const renderPage = () => {
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
+  );
+}

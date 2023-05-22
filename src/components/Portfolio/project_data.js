@@ -43,4 +43,4 @@ const myProjects =
         },
     ]
 
-    export default myProjects;
+export default myProjects;

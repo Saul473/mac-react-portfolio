@@ -8,20 +8,20 @@ function Portfolio() {
     return (
         <Container id="portfolio-container">
             <h1 className='text-center' id="portfolio-title">
-               My Portfolio
+                My Portfolio
             </h1>
             < br />
             <Row className=''>
-            {myProjects.map((project, index) => (
-                <ProjectCards 
-                    key={index}
-                    name={project.name}
-                    description={project.description}
-                    image={project.image}
-                    github={project.github}
-                    webpage={project.webpage}
-                />
-            ))}
+                {myProjects.map((project, index) => (
+                    <ProjectCards
+                        key={index}
+                        name={project.name}
+                        description={project.description}
+                        image={project.image}
+                        github={project.github}
+                        webpage={project.webpage}
+                    />
+                ))}
             </Row>
         </Container>
     )
