@@ -3,9 +3,17 @@ import employeeTracker from './images/Tables.PNG';
 import laicos from './images/Screenshot.PNG';
 import leWeather from './images/le-weather.PNG';
 import quizGame from './images/Quiz.PNG';
+import matchPoint from './images/MatchPoint.png';
 
 const myProjects =
     [
+        {
+            name: "Match Point!",
+            description: "Match Point is a full stack MERN application that joins users to participate in events.",
+            image: matchPoint,
+            webpage: "https://pure-spire-26458.herokuapp.com/",
+            github: "https://github.com/JSheen98/match-point",
+        },
         {
             name: "Employee Tracker",
             description: "I am a description",
