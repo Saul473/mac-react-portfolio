@@ -8,13 +8,6 @@ import matchPoint from './images/MatchPoint.png';
 const myProjects =
     [
         {
-            name: "Match Point!",
-            description: "Match Point is a full stack MERN application that joins users to participate in events.",
-            image: matchPoint,
-            webpage: "https://pure-spire-26458.herokuapp.com/",
-            github: "https://github.com/JSheen98/match-point",
-        },
-        {
             name: "Employee Tracker",
             description: "I am a description",
             image: employeeTracker,
@@ -48,6 +41,13 @@ const myProjects =
             image: quizGame,
             webpage: "https://saul473.github.io/Quizzler/",
             github: "https://github.com/Saul473/Quizzler",
+        },
+        {
+            name: "Match Point!",
+            description: "Match Point is a full stack MERN application that joins users to participate in events.",
+            image: matchPoint,
+            webpage: "https://pure-spire-26458.herokuapp.com/",
+            github: "https://github.com/JSheen98/match-point",
         },
     ]
 
